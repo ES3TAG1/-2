@@ -1,0 +1,71 @@
+*{
+  font-family: Georgia;
+}
+body {
+  background:#c9cc147a; /*Цвет фона*/
+  }
+
+h1 {
+  font-size: 64px; /*Размер шрифта*/
+  text-align: center; /*Текст по центру*/
+  }
+
+.wraper {
+  display: flex; /*Два блока*/
+}
+
+main {
+  font-size: 24px; /*Размер шрифта*/
+  margin-right: 50px; /*Отступ справа*/
+  margin-left: 40px; /*Отступ слева*/
+  font-family: Georgia; /*Шрифт*/
+  width: 1500px;
+  }
+
+p {
+  line-height: 1.5; /*Отступ между строк*/
+  }
+
+.sidebar {
+ font-family: Georgia; /*Шрифт*/
+}
+
+.sidebar a {
+  display: block; /*Блок sidebar*/
+  color: black; /*Цвет шрифта*/
+  padding-left: 10%; /*Отступ слева*/
+  padding-top: 5%; /*Отступ сверху*/
+  padding-bottom: 5%; /*Отступ снизу*/
+  text-decoration: none; /*Убрал ижнее подчеркивание*/
+  font-size: 21px; /*Размер шрифта*/
+  width: 270px; /*Размер блока в ширину*/
+}
+
+.sidebar a:hover:not(.active) {
+  background-color:#c9cc147a; /*Цвет выделенного раздела*/
+}
+
+.sidebar a.active {
+  background-color: #c9cc147a; /* Цвет выьранного раздела*/
+}
+
+.but {
+  font-size: 18px;
+  outline: none;
+  background-color: #FFEFD5;
+  border-color: #FFFACD;
+  border-radius:  8px;
+}
+
+.fig {
+  font-size: 18px;
+  outline: none;
+  background-color: #FFEFD5;
+  border-color: #FFFACD;
+  border-radius:  8px;
+}
+
+footer {
+  text-align: center; /* Фиксированное положение */
+  left: 45%; /* Центр */
+}

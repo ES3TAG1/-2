@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Автомобиль</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <head>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Калькулятор</h1>
+    </header>
+
+    <script src="cals.js"></script>
+
+    <div class="wraper">
+      <main>
+        <p>Решить квадратное уравнения вида a*x<sup>2</sup>+b*x+c = 0</p>
+        <form name="figure">
+          <input type="text" name="a" class="fig" size="5" /> * x<sup>2</sup> +
+          <input type="text" name="b" class="fig" size="5" /> * x +
+          <input type="text" name="c" class="fig" size="5" /> = 0
+          <p>
+            <input
+              type="button"
+              class="but"
+              value="Решить"
+              onclick="Calculate()"
+            />
+          </p>
+
+          <p></p>
+          <p>
+            Дискриминант уравнения:
+            <input type="text" class="fig" name="dis" size="6" />
+          </p>
+
+          <p>
+            x<sub>1</sub> =
+            <input type="text" class="fig" name="x1" size="23" /> x<sub>2</sub>
+            = <input type="text" class="fig" name="x2" size="23" />
+          </p>
+        </form>
+      </main>
+
+      <div class="sidebar">
+        <a href="index.html">Главная</a>
+        <a href="contacts.html">Контакты</a>
+        <a href="info.html">Информация о сайте</a>
+        <a href="calc.html" class="active">Калькулятор</a>
+      </div>
+    </div>
+
+    <footer>
+      ЧКАН ДЕНИС
+    </footer>
+  </body>
+</html>
